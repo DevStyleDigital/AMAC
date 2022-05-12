@@ -3,6 +3,7 @@ import { Texto, Title } from '@styles-components/text';
 import { PlayIcon } from '@styles/components/icons';
 import Modal from '@mui/material/Modal';
 import Box from '@mui/material/Box';
+import ReactPlayer from 'react-player';
 import { Container } from './styles';
 
 const style = {
@@ -71,12 +72,16 @@ const Empresa: React.FC = () => {
       <div
         className="Bloco2"
       >
-        <video
-          autoPlay
-          loop
-          muted
-          src="https://amac.eng.br/AMAC.mp4"
-        />
+        <div className="video">
+          <ReactPlayer
+            width="100%"
+            height="100%"
+            playing
+            loop
+            muted
+            url="https://amac.eng.br/AMAC.mp4"
+          />
+        </div>
         <span>
           <strong>Assista </strong>
           ao nosso

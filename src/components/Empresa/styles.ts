@@ -82,11 +82,10 @@ export const Container = styled.div`
     position: relative;
     animation: fade 1s ease-in-out;
     box-shadow: 0 0 10px rgba(0,0,0, 0.7);
-    video{
+    .video{
       width: 100%;
       height: 100%;
       object-fit: cover;
-      /* filter: grayscale(100%); */
       opacity: 0.5;
     }
     span{
