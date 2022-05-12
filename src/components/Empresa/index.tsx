@@ -72,9 +72,11 @@ const Empresa: React.FC = () => {
         className="Bloco2"
       >
         <video
+          controls
           autoPlay
           loop
           muted
+          playsInline
         >
           <source
             src="https://amac.eng.br/AMAC.mp4"
