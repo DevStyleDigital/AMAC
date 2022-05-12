@@ -42,6 +42,9 @@ export const Container = styled.div`
         display: flex;
         justify-content: space-between;
         align-items: center;
+        :hover .veja{
+          width: 5.3rem;
+        }
         .veja{
           width:3.5rem;
           height: 2rem;
