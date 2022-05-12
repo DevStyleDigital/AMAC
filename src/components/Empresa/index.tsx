@@ -75,12 +75,8 @@ const Empresa: React.FC = () => {
           autoPlay
           loop
           muted
-        >
-          <source
-            src="/AMAC.mp4"
-            type="video/mp4"
-          />
-        </video>
+          src="https://amac.eng.br/AMAC.mp4"
+        />
         <span>
           <strong>Assista </strong>
           ao nosso
