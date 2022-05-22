@@ -71,7 +71,7 @@ const Projects: React.FC = () => {
               color="#0055FF"
               rgba="rgba(0,85,255, 0)"
               name="Metropolitano"
-              img="/metropolitano.jpg"
+              img="/galleryMetropolitano.jpg"
             />
           </button>
         </Box>
