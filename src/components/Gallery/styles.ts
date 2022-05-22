@@ -26,6 +26,8 @@ export const Container = styled.div`
       position: absolute;
       bottom: 3rem;
       width: 100%;
+      display: flex;
+      justify-content: center;
       left: 0rem;
       .title{
         color:#fff;
