@@ -28,6 +28,8 @@ const style2 = {
   width: '85%',
   height: 'auto',
   boxShadow: 10,
+  bgcolor: '#000',
+  p: 0.5,
 };
 const Projects: React.FC = () => {
   const [gallery, setGallery] = useState('');
