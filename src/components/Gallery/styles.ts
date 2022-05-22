@@ -5,9 +5,11 @@ export const Container = styled.div`
     height: 100%;
     transition: all .5s ease;
     filter: grayscale(100%);
+    @media (min-width: 1024px){
     :hover{
       transform: scale(1.1);
       filter: grayscale(0%);
+    }
     }
     @media (max-width: 1024px){
       filter: grayscale(0%);
