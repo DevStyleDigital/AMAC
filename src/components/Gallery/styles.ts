@@ -20,7 +20,7 @@ export const Container = styled.div`
       height: 100%;
       top:0;
       left:0;
-      z-index: 2;
+      z-index: 8;
       mix-blend-mode: multiply;
     }
     .text{
@@ -29,10 +29,13 @@ export const Container = styled.div`
       height: 100%;
       display: flex;
       justify-content: center;
+      img{
+        z-index: 1;
+      }
       .title{
         position: absolute;
         width: 100%;
-        z-index: 3;
+        z-index: 9;
         bottom: 1.5rem;
         color:#fff;
       }
