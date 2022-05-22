@@ -64,7 +64,11 @@ export const Container = styled.div`
           :hover{
             width: 5.3rem;
           }
+          @media (max-width:520px){
+            z-index: 0;
+          }
         }
+
       }
     }
   }
@@ -123,5 +127,5 @@ export const Container = styled.div`
       max-height: 100vh;
       overflow: hidden;
     }
-  }
+}
 `;

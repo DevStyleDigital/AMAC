@@ -9,6 +9,7 @@ export const HeaderStyle = styled.header`
     background-color: #1A2025;
     position: fixed ;
     width: 100% ;
+    z-index: 999999;
     top: 0;
     left: 0 ;
     z-index:1 ;

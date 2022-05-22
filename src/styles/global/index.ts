@@ -18,4 +18,37 @@ export default createGlobalStyle`
     width: 100%;
     height: 100%;
   }
+  .Box{
+    @media(max-width: 1024px){
+      flex-direction: column;
+    }
+  .selectGallery{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    @media(max-width: 1024px){
+      width: 100%;
+      height: 50%;
+    }
+  }
+}
+.Box2{
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+  }
+}
 `;
