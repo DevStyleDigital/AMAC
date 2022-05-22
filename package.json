@@ -20,7 +20,8 @@
     "react-slick": "^0.28.1",
     "slick-carousel": "^1.8.1",
     "styled-components": "^5.3.3",
-    "styled-icons": "^10.45.0"
+    "styled-icons": "^10.45.0",
+    "swiper": "^6.8.4"
   },
   "devDependencies": {
     "@types/node": "^17.0.21",
