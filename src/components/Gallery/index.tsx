@@ -4,9 +4,9 @@ import React from 'react';
 import { Container } from './styles';
 
 interface Iprops{
-  img?: string,
-  color?: string,
-  rgba? : string,
+  img: string,
+  color: string,
+  rgba : string,
   name: string
 }
 
