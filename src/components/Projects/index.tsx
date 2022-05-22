@@ -27,7 +27,6 @@ const style2 = {
   transform: 'translate(-50%, -50%)',
   width: '85%',
   height: 'auto',
-  border: '1px solid #000',
   boxShadow: 10,
 };
 const Projects: React.FC = () => {
