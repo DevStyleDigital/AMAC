@@ -7,7 +7,6 @@ export const Container = styled.div`
     filter: grayscale(100%);
     @media (min-width: 1024px){
     :hover{
-      transform: scale(1.1);
       filter: grayscale(0%);
     }
     }
