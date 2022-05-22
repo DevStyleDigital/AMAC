@@ -20,10 +20,10 @@ const Gallery: React.FC<Iprops> = ({
     />
     <div className="text">
       <div className="title">
-        <Title style={{ fontSize: '1.5rem' }}>
+        <Title style={{ fontSize: '1.2rem' }}>
           {name}
         </Title>
-        <Texto style={{ fontSize: '1rem', opacity: '60%' }}>
+        <Texto style={{ fontSize: '0.8rem', opacity: '60%' }}>
           Ver imagens
         </Texto>
       </div>

@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
 export const TextoCarousel = styled.h1`
-
   position: absolute;
   z-index: 9;
   bottom:  4.2rem;

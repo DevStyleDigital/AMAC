@@ -7,6 +7,7 @@ export const Container = styled.div`
     filter: grayscale(100%);
     @media (min-width: 1024px){
     :hover{
+      transform: scale(1.1);
       filter: grayscale(0%);
     }
     }
@@ -23,12 +24,11 @@ export const Container = styled.div`
     }
     .text{
       position: absolute;
-      bottom: 3rem;
+      bottom: 1.5rem;
       width: 100%;
-      display: flex;
-      justify-content: center;
-      left: 0rem;
       .title{
+        display: grid;
+        justify-content: center;
         color:#fff;
       }
     }
