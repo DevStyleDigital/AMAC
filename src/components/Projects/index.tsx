@@ -56,7 +56,7 @@ const Projects: React.FC = () => {
             onClick={() => (handleOpenG(), setGallery('olimpio'))}
           >
             <Gallery
-              color="#E30613"
+              color="#E3061390"
               rgba="rgba(227, 6, 19, 0)"
               name="Olimpio Matiuci"
               img="/galleryOlimpio.jpg"
@@ -69,7 +69,7 @@ const Projects: React.FC = () => {
             onClick={() => (handleOpenG(), setGallery('metropolitano'))}
           >
             <Gallery
-              color="#0055FF"
+              color="#0055FF90"
               rgba="rgba(0,85,255, 0)"
               name="Metropolitano"
               img="/galleryMetropolitano.jpg"
