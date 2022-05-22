@@ -70,7 +70,7 @@ const Projects: React.FC = () => {
           >
             <Gallery
               color="#0055FF90"
-              rgba="rgba(0,85,255, 0)"
+              rgba="rgba(0,85,255,0)"
               name="Metropolitano"
               img="/galleryMetropolitano.jpg"
             />

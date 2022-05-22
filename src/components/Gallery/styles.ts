@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
     max-width: 100%;
+    position: relative;
     height: 100%;
     cursor: pointer;
     transition: all .5s ease;
@@ -18,7 +19,7 @@ export const Container = styled.div`
     .sombraImg{
       position:absolute;
       width:100%;
-      height: 50%;
+      height: 100%;
       bottom:0;
       left:0;
       z-index: 8;

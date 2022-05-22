@@ -16,7 +16,7 @@ const Gallery: React.FC<Iprops> = ({
   <Container>
     <div
       className="sombraImg"
-      style={{ background: `linear-gradient(0deg, ${color}, ${rgba} 73.51%)` }}
+      style={{ background: `linear-gradient(0deg, ${color}, ${rgba}) 75%` }}
     />
     <div className="text">
       <img
