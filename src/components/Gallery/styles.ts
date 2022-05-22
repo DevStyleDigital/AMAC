@@ -23,11 +23,10 @@ export const Container = styled.div`
       mix-blend-mode: multiply;
     }
     .text{
-      position: absolute;
       bottom: 1.5rem;
       width: 100%;
       .title{
-        display: grid;
+        display: block;
         justify-content: center;
         color:#fff;
       }
