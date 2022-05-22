@@ -64,7 +64,7 @@ export const Container = styled.div`
           :hover{
             width: 5.3rem;
           }
-          @media (max-width:520px){
+          @media (max-width:1024px){
             z-index: 0;
           }
         }

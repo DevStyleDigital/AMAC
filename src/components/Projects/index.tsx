@@ -15,7 +15,7 @@ const style = {
   left: '50%',
   transform: 'translate(-50%, -50%)',
   width: '95%',
-  height: '85%',
+  height: 'auto',
   bgcolor: '#000',
   boxShadow: 24,
   p: 1,
@@ -27,9 +27,8 @@ const style2 = {
   transform: 'translate(-50%, -50%)',
   width: '85%',
   height: 'auto',
-  border: '2px solid #000',
+  border: '1px solid #000',
   boxShadow: 10,
-  p: 0,
 };
 const Projects: React.FC = () => {
   const [gallery, setGallery] = useState('');

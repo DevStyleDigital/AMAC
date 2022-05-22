@@ -22,7 +22,7 @@ export const Container = styled.div`
     }
     .text{
       position: absolute;
-      bottom: 2.5rem;
+      bottom: 3rem;
       width: 100%;
       left: 0rem;
       .title{
