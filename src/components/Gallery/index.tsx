@@ -19,6 +19,10 @@ const Gallery: React.FC<Iprops> = ({
       style={{ background: `linear-gradient(0deg, ${color} 0%, ${rgba} 73.51%)` }}
     />
     <div className="text">
+      <img
+        src={img}
+        alt="img"
+      />
       <div className="title">
         <Title style={{ fontSize: '1.2rem' }}>
           {name}
@@ -28,10 +32,7 @@ const Gallery: React.FC<Iprops> = ({
         </Texto>
       </div>
     </div>
-    <img
-      src={img}
-      alt="img"
-    />
+
   </Container>
 );
 

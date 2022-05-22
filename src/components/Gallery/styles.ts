@@ -20,14 +20,20 @@ export const Container = styled.div`
       height: 100%;
       top:0;
       left:0;
+      z-index: 2;
       mix-blend-mode: multiply;
     }
     .text{
-      bottom: 1.5rem;
+      position: relative;
       width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
       .title{
-        display: block;
-        justify-content: center;
+        position: absolute;
+        width: 100%;
+        z-index: 3;
+        bottom: 1.5rem;
         color:#fff;
       }
     }
