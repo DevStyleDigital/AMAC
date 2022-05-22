@@ -18,7 +18,7 @@ const style = {
   height: 'auto',
   bgcolor: '#000',
   boxShadow: 24,
-  p: 1,
+  p: 0.5,
 };
 const style2 = {
   position: 'absolute',
